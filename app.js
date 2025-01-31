@@ -1,4 +1,4 @@
-liff.init({ liffId: "2006595473" }) // 替換為您的 LIFF ID
+liff.init({ liffId: "2006595473-3aZ0Ov6J" }) // 替換為您的 LIFF ID
   .then(() => {
     if (liff.isLoggedIn()) {
       liff.getProfile().then(profile => {
