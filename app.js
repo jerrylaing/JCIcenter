@@ -6,7 +6,7 @@ liff.init({ liffId: "2006595473-3aZ0Ov6J" }) // 替換為您的 LIFF ID
         const userId = profile.userId;
 
         // Google 表單的基礎 URL
-        const googleFormBaseUrl = "https://docs.google.com/forms/d/e/1FAIpQLSf3CgzfxHJd0LUs8toAvdLbyh-YYs-dTtc1HiA0EZd-PosMhQ/viewform";
+        const googleFormBaseUrl = "https://docs.google.com/forms/d/e/1FAIpQLSfZUbvqLYbA7iK27GO42i_YLDdVm2mxSC0hl1BTP4u4hH8Lww/viewform";
 
         // 動態生成完整 URL，插入 User ID
         const targetUrl = `${googleFormBaseUrl}?entry.1911758843=${userId}`;
